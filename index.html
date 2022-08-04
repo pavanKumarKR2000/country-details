@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title></title>
+</head>
+<body>
+
+	  <header id="header"><h1>country details</h1></header>
+
+	  <main class="container">
+          	  	
+ 	  </main>
+         
+</body>
+<style type="text/css">
+     /*@import url('https://rsms.me/inter/inter.css');*/
+
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		font-family:overpass;
+	}
+
+	html{
+		font-size: 62.5%;
+	}
+
+	body{
+		background: #1a1111;
+		font-size:1.6rem;
+	}
+
+	#header{
+		height: max-content;
+		width: max-content;
+		padding:10px 40px;
+		margin: 50px auto;
+		color: white;
+		text-align: center;
+        text-transform: uppercase;
+        background: #242428;
+        border-left: 4px solid #27b4f5;
+		border-radius: 8px;
+	}
+
+	.container{
+		width:max-content;
+		height: max-content;
+		margin: 0 auto;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+	}
+
+
+
+	.country{
+		height:max-content;
+		width:50rem;
+		padding:10px 40px;
+		background: #242428;
+		margin-block: 2.5rem ;
+		line-height: 35px;
+		border-left: 4px solid #27b4f5;
+		border-radius: 8px;
+		color: white;
+	}
+
+	.country .country__name span:nth-child(1),.country .country__capital span:nth-child(1),.country .country__currency span:nth-child(1),.country .continent span:nth-child(1){
+		height:max-content;
+		width: max-content;
+		padding: 5px 5px;
+		background:#27b4f5;
+		border-radius: 8px;
+	}
+
+	.country .country__name span:nth-child(2),.country .country__capital span:nth-child(2),.country .country__currency span:nth-child(2),.country .continent span:nth-child(2){
+		height:max-content;
+		width: max-content;
+		padding: 5px 5px;
+		background:#39d873;
+		border-radius: 8px;
+		margin-left: 10px;
+	}
+
+	@media (max-width: 600px){
+		html{
+			font-size:45%;
+		}
+	}
+
+	@media (max-width: 400px){
+		html{
+			font-size:40%;
+		}
+	}
+
+
+</style>
+<script type="text/javascript" src="./data.js"></script>
+</html>
